@@ -1,0 +1,183 @@
+[0.040s] Invoking command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup
+[0.248s] -- The C compiler identification is GNU 13.3.0
+[0.432s] -- The CXX compiler identification is GNU 13.3.0
+[0.471s] -- Detecting C compiler ABI info
+[0.686s] -- Detecting C compiler ABI info - done
+[0.712s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.712s] -- Detecting C compile features
+[0.713s] -- Detecting C compile features - done
+[0.733s] -- Detecting CXX compiler ABI info
+[0.969s] -- Detecting CXX compiler ABI info - done
+[0.988s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.988s] -- Detecting CXX compile features
+[0.989s] -- Detecting CXX compile features - done
+[1.015s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.331s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.478s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.614s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.773s] -- Configuring done (1.7s)
+[1.779s] -- Generating done (0.0s)
+[1.783s] -- Build files have been written to: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup
+[1.791s] Invoked command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup
+[1.793s] Invoking command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup -- -j12 -l12
+[1.877s] Invoked command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup -- -j12 -l12
+[1.899s] Invoking command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup
+[1.915s] -- Install configuration: ""
+[1.916s] -- Execute custom install script
+[1.916s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[1.937s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[1.958s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[1.978s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[1.997s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.018s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.038s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.058s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.079s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.100s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.121s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[2.142s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[2.162s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[2.182s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[2.202s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[2.223s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[2.242s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[2.263s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[2.284s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[2.303s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[2.324s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[2.344s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[2.365s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[2.385s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[2.404s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/lib/micro_ros_setup/component
+[2.424s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config
+[2.425s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.425s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.425s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib
+[2.426s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.426s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic
+[2.426s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.426s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.426s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.427s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.427s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.427s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.428s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.428s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.428s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android
+[2.429s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.429s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic
+[2.429s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic/build.sh
+[2.429s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.430s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.430s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic/create.sh
+[2.430s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.431s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/generic/package.xml
+[2.431s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.431s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos
+[2.432s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.432s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.432s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.433s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.433s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.433s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.433s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.434s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.434s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.434s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.434s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.435s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.435s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.435s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.435s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.436s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.436s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.436s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.436s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.437s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.437s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.437s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.438s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.438s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.438s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.438s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.439s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.439s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.439s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.439s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.439s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.440s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.440s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.440s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.440s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.441s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.441s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.441s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.441s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.442s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.442s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.442s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.442s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.443s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.443s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.443s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.443s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.444s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.444s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.444s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.445s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.445s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.445s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.445s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.446s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.446s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.446s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32
+[2.446s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.447s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.447s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.448s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.448s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.448s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.448s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.449s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.449s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.449s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.450s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian
+[2.450s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.450s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic
+[2.450s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.451s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[2.451s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[2.451s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[2.452s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[2.452s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[2.452s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[2.453s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.453s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr
+[2.453s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.454s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic
+[2.454s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.454s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.454s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.455s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.455s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.455s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.455s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.456s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.456s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.456s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.457s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.457s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.457s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.458s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/utils.sh
+[2.458s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host
+[2.458s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.458s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.459s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic
+[2.459s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.459s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic/build.sh
+[2.460s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic/create.sh
+[2.460s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.460s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.461s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/generic/package.xml
+[2.461s] -- Installing: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.466s] Invoked command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/micro_ros_setup

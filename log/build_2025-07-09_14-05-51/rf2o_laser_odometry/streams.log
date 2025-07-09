@@ -1,0 +1,69 @@
+[0.033s] Invoking command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry
+[0.236s] -- The C compiler identification is GNU 13.3.0
+[0.418s] -- The CXX compiler identification is GNU 13.3.0
+[0.458s] -- Detecting C compiler ABI info
+[0.670s] -- Detecting C compiler ABI info - done
+[0.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.697s] -- Detecting C compile features
+[0.698s] -- Detecting C compile features - done
+[0.721s] -- Detecting CXX compiler ABI info
+[0.956s] -- Detecting CXX compiler ABI info - done
+[0.977s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.978s] -- Detecting CXX compile features
+[0.979s] -- Detecting CXX compile features - done
+[1.003s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.317s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.465s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.601s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.737s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.782s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.101s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.113s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.357s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.402s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.448s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.647s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.684s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.724s] -- Found tf2_geometry_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[2.782s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[2.784s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.784s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.145s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.219s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[3.357s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[3.597s] -- Configuring done (3.5s)
+[3.660s] -- Generating done (0.0s)
+[3.676s] -- Build files have been written to: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry
+[3.711s] Invoked command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry
+[3.713s] Invoking command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry -- -j12 -l12
+[3.896s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[3.908s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[3.913s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[25.766s] [ 80%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[25.862s] [100%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[26.116s] [100%] Built target rf2o_laser_odometry
+[26.970s] [100%] Built target rf2o_laser_odometry_node
+[26.985s] Invoked command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry -- -j12 -l12
+[26.987s] Invoking command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry
+[26.997s] -- Install configuration: ""
+[26.998s] -- Execute custom install script
+[26.998s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[27.010s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[27.022s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[27.035s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[27.048s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[27.061s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[27.073s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[27.086s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[27.098s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[27.110s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[27.122s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[27.134s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[27.146s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[27.159s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[27.170s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[27.182s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[27.195s] -- Symlinking: /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[27.211s] Invoked command in '/home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jujuba/Documents/DROID/WORK/TREKKING_ROS2_WS/build/rf2o_laser_odometry
